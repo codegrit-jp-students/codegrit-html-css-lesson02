@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+.box-model {
+  margin: 50px;
+  padding: 50px;
+  background-color: navy;
+  border: 10px solid yellow;
+  color: white
+}
