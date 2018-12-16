@@ -140,7 +140,7 @@ developer tool画面のCSS `padding` の値箇所をダブルクリックして�
 
 ここで使用した例のサンプルコードは以下からアクセスできるので、ダウンロードしてHTMLファイルをブラウザに読み込み、developer toolで色々とボックスレイアウトのプロパティと値を変更して、実際に手を動かしてインプットしましょう。
 
-[boxmodel-example/index.html](./samples/boxmodel-example/index.html)
+[codegrit-html-css-lesson02-sample-boxmodel](https://github.com/codegrit-jp-students/codegrit-html-css-lesson02-sample-boxmodel)
 
 | ボックスモデル関係 | 指定の種類 |
 | ------------- | -----:|

@@ -141,4 +141,4 @@ a:hover { /* カーソルが合わさった状況 */
 
 ![疑似グラス例: ホバー時](./images/pseudo_hover.png)
 
-[サンプルコード](./samples/pseudo_class)
+[サンプルコード](https://github.com/codegrit-jp-students/codegrit-html-css-lesson02-sample-pseudo-class)

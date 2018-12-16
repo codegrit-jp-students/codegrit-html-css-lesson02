@@ -1,8 +1,3 @@
-```
-ステータス: 公開
-タイプ: 学習教材
-```
-
 # 初めてのCSS
 
 ## 目的
@@ -51,7 +46,7 @@ CSSを適用する`.html`拡張子のファイルの`<head>`タグ内に、CSS�
 </head>
 ```
 
-こうすることで、外部ファイルとしてCSSが適用されます。CSSが反映されないのは、大抵の場合外部ファイルとして読み込んでいないことが多いので、読み込まれない場合には、まずCSSファイルが読み込まれているか確認をしましょう。またCSSファイルが異なるフォルダにある場合は相対パスを使って`href="../styles.scss"`のように指定します。
+こうすることで、外部ファイルとしてCSSが適用されます。CSSが反映されないのは、大抵の場合外部ファイルとして読み込んでいないことが多いので、読み込まれない場合には、まずCSSファイルが読み込まれているか確認をしましょう。またCSSファイルが異なるフォルダにある場合は相対パスを使って`href="../styles.css"`のように指定します。
 
 ## セレクタ、プロパティ、値
 
@@ -264,7 +259,7 @@ a:hover { /* カーソルが合わさった状況 */
 
 ![疑似グラス例: ホバー時](./images/pseudo_hover.png)
 
-[サンプルコード](./samples/pseudo_class)
+[サンプルコード](https://github.com/codegrit-jp-students/codegrit-html-css-lesson02-sample-pseudo-class)
 
 
 ## プロパティ
@@ -409,7 +404,7 @@ developer tool画面のCSS `padding` の値箇所をダブルクリックして�
 
 ここで使用した例のサンプルコードは以下からアクセスできるので、ダウンロードしてHTMLファイルをブラウザに読み込み、developer toolで色々とボックスレイアウトのプロパティと値を変更して、実際に手を動かしてインプットしましょう。
 
-[boxmodel-example/index.html](./samples/boxmodel-example/index.html)
+[boxmodel-example/index.html](https://github.com/codegrit-jp-students/codegrit-html-css-lesson02-sample-boxmodel)
 
 | ボックスモデル関係 | 指定の種類 |
 | ------------- | -----:|
