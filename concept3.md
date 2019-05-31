@@ -92,12 +92,14 @@ developer toolで変更した内容は、一時的に検証、デバッグする
 }
 ```
 
+![margin-padding1.png](images/margin-padding1.png)
+
 <iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/60f8umkr/4/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 developer toolも合わせて見ていくとわかりやすくなるので、一緒に見ていきましょう。
 該当するHTMLの箇所をdeveloper toolで選択すると、以下の画像のように `margin` や `padding` 、コンテンツエリアなどが画面左のブラウザで実際にコードが反映されている箇所にも色がつきます。
 
-<img src="images/margin-padding2.png" />
+![margin-padding2.png](images/margin-padding2.png)
 
 画像右端、developer toolで表示されているボックスモデルの図も見てみましょう。
 同じように色分けが `margin`、`padding` などにしてあるのが確認できます。
@@ -106,7 +108,7 @@ developer toolも合わせて見ていくとわかりやすくなるので、一
 
 要素の位置の調整では、`margin`プロパティを使うと良いと先ほど学んだので、developer toolのCSSで`margin`プロパティの値を変えて、div要素全体を下に少し移動させてみましょう。
 
-<img src="images/margin-padding3.png" />
+![margin-padding3.png](images/margin-padding3.png)
 
 developer tool画面のCSS `margin` の値箇所をダブルクリックして、 `500px 50px 50px 50px` と書き換えてみます。
 
@@ -120,7 +122,7 @@ developer tool画面のCSS `margin` の値箇所をダブルクリックして�
 今度は `padding` でどうなるか試してみます。
 元の配置から `padding` だけを変えてみます。
 
-<img src="images/margin-padding4.png" />
+![margin-padding4.png](./images/margin-padding4.png)
 
 developer tool画面のCSS `padding` の値箇所をダブルクリックして、 `500px 50px 50px 50px` と書き換えます。
 
