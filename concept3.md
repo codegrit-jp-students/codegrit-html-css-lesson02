@@ -78,7 +78,7 @@ developer toolで変更した内容は、一時的に検証、デバッグする
 
 ```html
 <div class="box-model">
-  ボックスモデルの例
+  div要素
 </div>
 ```
 
@@ -92,7 +92,9 @@ developer toolで変更した内容は、一時的に検証、デバッグする
 }
 ```
 
-<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/60f8umkr/2/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<img src="images/margin-padding1.png" />
+
+<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/60f8umkr/4/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 developer toolも合わせて見ていくとわかりやすくなるので、一緒に見ていきましょう。
 該当するHTMLの箇所をdeveloper toolで選択すると、以下の画像のように `margin` や `padding` 、コンテンツエリアなどが画面左のブラウザで実際にコードが反映されている箇所にも色がつきます。
