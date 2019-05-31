@@ -12,7 +12,6 @@
 | font-family | 文字の種類を指定 |
 | font-style | 文字をイタリックや斜体に指定 |
 
-
 ## Developer Toolsでのデバッグの仕方
 
 HTML、CSSに限らず、実装した機能やスタイルがきちんと反映されているか、思い通りに反映されていない場合は、どこにどんな原因があるのかを把握して、正しく修正する必要があります。
@@ -25,7 +24,6 @@ Developer Toolsの使い方は簡単です。
 
 1. ページのどこでもいいので右クリック
 2. 「検証（inspect）」をクリック
-
 
 これでDeveloper Toolsが使えるようになりました。
 
@@ -45,8 +43,8 @@ HTML要素（ `<div>` `<span>` `<article>` 要素など）には、それぞれ�
 
 ![ボックスモデルイメージ](./images/box-model.png)
 
- **コンテンツエリア**は、`width`（横幅）と`height`（縦幅）のプロパティと値で調整します。
- そのほかの領域、例えば各要素の余白部分に当たる`margin`や`padding`も、値やプロパティを指定することで調整、表示を指定することが可能です。
+*コンテンツエリア**は、`width`（横幅）と`height`（縦幅）のプロパティと値で調整します。
+そのほかの領域、例えば各要素の余白部分に当たる`margin`や`padding`も、値やプロパティを指定することで調整、表示を指定するとが可能です。
 
 先ほど紹介した、developer toolを使って色々なウェブサイトのボックスレイアウトを変更して、感覚をつかんでみましょう。
 developer toolで変更した内容は、一時的に検証、デバッグするだけなので、ページをリロードすると全てリセットされます。
@@ -80,7 +78,7 @@ developer toolで変更した内容は、一時的に検証、デバッグする
 
 ```html
 <div class="box-model">
-  div要素
+  ボックスモデルの例
 </div>
 ```
 
@@ -94,9 +92,7 @@ developer toolで変更した内容は、一時的に検証、デバッグする
 }
 ```
 
-上記のコードは、実際には以下の画像のように表示されます。
-
-<img src="images/margin-padding1.png" />
+<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/60f8umkr/2/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 developer toolも合わせて見ていくとわかりやすくなるので、一緒に見ていきましょう。
 該当するHTMLの箇所をdeveloper toolで選択すると、以下の画像のように `margin` や `padding` 、コンテンツエリアなどが画面左のブラウザで実際にコードが反映されている箇所にも色がつきます。

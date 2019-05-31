@@ -34,7 +34,7 @@ CSSを適用する`.html`拡張子のファイルの`<head>`タグ内に、CSS�
 ```html
 <head>
   <!-- 〜省略〜 -->
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./styles.css">
 </head>
 ```
 
@@ -64,6 +64,8 @@ h2 {
 もう少し詳細な書き方の説明になりますが、プロパティの隣には`:`、値の隣には`;`を書き加えるのを忘れないようにしましょう。
 また、CSSは一つのセレクタに対して、複数のプロパティを設定することができます。
 
+例えば、以下はh2要素とh3要素にCSSを適用した例です。
+
 ```css
 h2 {
   color: red;
@@ -76,7 +78,7 @@ h3 {
 }
 ```
 
-その場合は上記のように書いていきます。
+<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/gszyhpfd/2/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ### コメント、コメントアウト
 
