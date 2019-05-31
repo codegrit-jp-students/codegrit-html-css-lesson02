@@ -92,8 +92,6 @@ developer toolで変更した内容は、一時的に検証、デバッグする
 }
 ```
 
-<img src="./images/margin-padding1.png" />
-
 <iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/60f8umkr/4/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 developer toolも合わせて見ていくとわかりやすくなるので、一緒に見ていきましょう。
