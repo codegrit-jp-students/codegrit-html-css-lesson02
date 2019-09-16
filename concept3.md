@@ -156,3 +156,17 @@ developer tool画面のCSS `padding` の値箇所をダブルクリックして�
 | border-color | ボーダーの色指定 |
 | border-style | ボーダーのスタイル指定 |
 | border-bottom | ボーダー下（下線）のスタイルを指定 |
+
+## 要素を中央に配置する
+
+marginを利用したテクニックの一つに、次のように`margin: 0 auto`を設定する方法があります。中央揃えはレッスン4で学ぶFlexboxでも簡単に実現出来るのですが、特に画面全体のレイアウトを中央に揃えたい時には今でもよく利用します。
+
+```css
+.centered {
+  margin: 0 auto;
+}
+```
+
+このテクニックでは、上下にはなんのマージンも入れずに、左右のマージンを自動的に同じにするようにしています。
+
+<iframe width="100%" height="300" src="//jsfiddle.net/g2s1nbh3/1/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
